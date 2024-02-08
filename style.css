@@ -76,6 +76,7 @@ footer{
     padding-top: 40px;
 }
 /* Body area start  */
+
 .top-image-section{
     background-color: skyblue;
     padding-top: 90px;
@@ -117,7 +118,12 @@ img.singupbtn-1 {
     border: 2px solid white;
     border-radius: 5px;
     width: 400px;
+}.create-account a img{
+    border: none;
+    width: 280px;
+    margin-left: 50px;
 }
+
 
 /* Slider image section css  */
 
@@ -234,7 +240,8 @@ container {
         width: 290px !important;
     }
     .top-menu{
-        width: 100%;
+        margin: 0px;
+        padding: 0px;
     }
     .top-menu ul li {
         display: inline-block;
@@ -261,12 +268,22 @@ container {
         margin-top: 30px !important;
         margin-left: 165px !important;
     }
+    .text-area2{
+        margin-left: 75px;
+        position: relative;
+    }
     img.singupbtn-1 {
-        margin-left: 205px;
-        width: 290px !important;
+        margin: 0px;
+        padding: 0px;
+        width: 190px !important;
+        margin-left: 30px;
+        position: absolute;
+        top: 390px;
+        left: 0;
     }
     .top-menu{
-        width: 100%;
+        margin: 0px;
+        padding: 0px;
     }
     .top-menu ul li {
         display: inline-block;
@@ -285,3 +302,228 @@ container {
         transition: all .3s ease-in;
     }
 }
+
+@media screen and (max-width: 415px) {
+    .top-image-section{
+        padding: 10px;
+    }
+    .top-image-area{
+        margin: 0px;
+        padding: 0px;
+    }
+    .top-image-area a img{
+        width: 300px;
+        margin-left: 50px;
+    }
+    .text-area h3{
+        font-size: 14px;
+        color: white;
+        line-height: 32px;
+        margin-top: 30px !important;
+        margin-left: 165px !important;
+    }
+    .text-area2{
+        margin-left: 75px;
+        position: relative;
+    }
+    img.singupbtn-1 {
+        margin: 0px;
+        padding: 0px;
+        width: 190px !important;
+        margin-left: 30px;
+        position: absolute;
+        top: 390px;
+        left: 0;
+    }
+    .top-menu{
+        margin: 0px;
+        padding: 0px;
+    }
+    .top-menu ul li {
+        display: inline-block;
+        margin-left: 15px;
+    }
+    .top-menu ul {
+        list-style: none;
+        margin-left: -37px !important;
+    }
+    .top-menu ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+        transition: all .3s ease-in;
+    }
+}
+@media screen and (max-width: 410px) {
+    .top-image-area{
+        margin: 0px;
+        padding: 0px;
+    }
+    .top-image-area a img{
+        width: 300px;
+        margin-left: 25px;
+    }
+    .text-area h3{
+        font-size: 14px;
+        color: white;
+        line-height: 32px;
+        margin-top: 30px !important;
+        margin-left: 165px !important;
+    }
+    .text-area2{
+        margin-left: 75px;
+        position: relative;
+    }
+    img.singupbtn-1 {
+        margin: 0px;
+        padding: 0px;
+        width: 190px !important;
+        margin-left: 30px;
+        position: absolute;
+        top: 390px;
+        left: 0;
+    }
+    .create-account a img {
+        border: none;
+        width: 250px;
+        margin-left: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .top-menu{
+        margin: 0px;
+        padding: 0px;
+    }
+    .top-menu ul li {
+        display: inline-block;
+        margin-left: -2px;
+        border: 1px solid red;
+        padding: 5px;
+    }
+    .top-menu ul {
+        list-style: none;
+        margin-left: -37px !important;
+    }
+    .top-menu ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        font-size: 13px;
+        font-weight: 400;
+        transition: all .3s ease-in;
+    }
+    .eightinbtn a img{
+        width: 260px;
+        padding-top: 20px;
+        margin-left: 50px !important;
+    }
+}
+@media screen and (max-width: 309px) {
+    .text-area h3{
+        font-size: 17px;
+        color: white;
+        line-height: 32px;
+        margin-top: 30px !important;
+        margin-left: 165px !important;
+    }
+    .text-area2{
+        margin-left: 75px;
+        position: relative;
+    }
+    img.singupbtn-1 {
+        margin: 0px;
+        padding: 0px;
+        width: 190px !important;
+        margin-left: 30px;
+        position: absolute;
+        top: 390px;
+        left: 0;
+    }
+    .top-menu{
+        width: 100%;
+        margin: 0px;
+    }
+    .top-menu ul li {
+        display: inline-block;
+        margin-left: 15px;
+    }
+    .top-menu ul {
+        list-style: none;
+        margin-left: -37px !important;
+    }
+    .top-menu ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+        transition: all .3s ease-in;
+    }
+}
+@media screen and (max-width: 373px) {
+    .top-image-area{
+        margin: 0px;
+        padding: 0px;
+    }
+    .top-image-area a img{
+        width: 300px;
+        margin-left: 25px;
+    }
+    .text-area h3{
+        font-size: 14px;
+        color: white;
+        line-height: 32px;
+        margin-top: 30px !important;
+        margin-left: 165px !important;
+    }
+    .text-area2{
+        margin-left: 75px;
+        position: relative;
+    }
+    img.singupbtn-1 {
+        margin: 0px;
+        padding: 0px;
+        width: 190px !important;
+        margin-left: 30px;
+        position: absolute;
+        top: 390px;
+        left: 0;
+    }
+    .create-account a img {
+        border: none;
+        width: 250px;
+        margin-left: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .top-menu{
+        margin: 0px;
+        padding: 0px;
+    }
+    .top-menu ul li {
+        display: inline-block;
+        margin-left: -2px;
+        border: 1px solid #cacaca;
+        padding: 5px;
+    }
+    .top-menu ul {
+        list-style: none;
+        margin-left: -37px !important;
+    }
+    .top-menu ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        font-size: 13px;
+        font-weight: 400;
+        transition: all .3s ease-in;
+    }
+    .eightinbtn a img{
+        width: 260px;
+        padding-top: 20px;
+        margin-left: 30px;
+    }
+}
+
